@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021404119284",
+    "firebase_url": "https://transportepublico2.firebaseio.com",
+    "project_id": "transportepublico2",
+    "storage_bucket": "transportepublico2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021404119284:android:78643efe04fa23228c9ea1",
+        "android_client_info": {
+          "package_name": "com.example.tpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021404119284-1ejcji2u30gl1kddiojski1u5b2fmoev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tpr",
+            "certificate_hash": "a22694a1f52dcf99c3621640c012cac251580962"
+          }
+        },
+        {
+          "client_id": "1021404119284-2as36kifp3uckgkuptf9fh31m2kroeha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI82xdgm3N--vVlSf3G0vDIfJhlfXoX94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021404119284-2as36kifp3uckgkuptf9fh31m2kroeha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
