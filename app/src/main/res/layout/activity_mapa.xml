@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mapa">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <SearchView
+        android:id="@+id/sv_destino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_round"
+        android:elevation="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Destino..." />
+
+    <SearchView
+        android:id="@+id/sv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sv_destino"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_round"
+        android:elevation="5dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Origen..." />
+
+    <Button
+        android:id="@+id/Anadir"
+        android:layout_width="204dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/sv_location"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Añadir"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Buscar"
+        android:layout_width="204dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/sv_location"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/bordes_redondos"
+        android:text="Buscar"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:background="#EF5350"
+        android:outlineAmbientShadowColor="#7E57C2"
+        android:outlineSpotShadowColor="#7E57C2">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
